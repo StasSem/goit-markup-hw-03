@@ -1,0 +1,254 @@
+/*  
+головний фон - #FFFFFF 
+вторичний фон - #F5F4FA 
+акцент фон -  #2196F3
+
+колир заголовки тексту - #212121
+головний колір тексту - #757575
+
+лого колір : web - #2196F3  studio - #000000
+
+кнопка колір - #2196F3 ; #FFFFFF
+
+*/
+
+:root {
+  --title-text-color: #212121;
+  --primary-text-color: #757575;
+  /*--secondary-text-color: #ffffff;*/
+
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+  --secondary-color: #f5f4fa;
+}
+
+body {
+  background-color: var(--primary-white-color);
+
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}
+
+ul {
+  list-style: none;
+}
+p {
+  color: var(--primary-text-color);
+}
+
+h2,
+h3 {
+  color: var(--title-text-color);
+}
+
+/*button {
+  font-family: inherit;
+}*/
+
+/*WEB STUDIO */
+/* Header!!! */
+/* Logo */
+.logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+
+.logo .logo-blue {
+  color: #2196f3;
+}
+
+.logo .logo-black {
+  color: #000000;
+}
+
+/* Navigation */
+
+.list-nav .item-nav {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.list-nav .item-nav:hover,
+.list-nav .item-nav:focus {
+  color: #2196f3;
+}
+
+.communication .phone-number,
+.communication .mail {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.communication .mail:hover,
+.communication .mail:focus {
+  color: var(--accent-color);
+}
+
+.communication .phone-number:hover,
+.communication .phone-number:focus {
+  color: var(--accent-color);
+}
+
+/* Hero  */
+
+.hero {
+  background: rgba(47, 48, 58, 0.8);
+}
+
+.hero-title {
+  color: var(--primary-white-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.hero-button {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+}
+
+/* SECTION TITLE  */
+.section-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* Studio quality */
+.quality .title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.quality .text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.item-quality {
+  background-color: var(--secondary-color);
+}
+
+/* What does a web studio do? */
+.work-item {
+  background-color: rgba(47, 48, 58, 0.8);
+  color: var(--primary-white-color);
+
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+/* Our Team */
+.our-team {
+  background-color: var(--secondary-color);
+}
+
+.user {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+}
+
+.profession {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+}
+
+/* Footer */
+.page-footer {
+  background-color: #2f303a;
+}
+
+.text-nav,
+.title-nav {
+  color: var(--primary-white-color);
+}
+
+.navigation .phone-number,
+.navigation .mail {
+  color: var(--primary-text-color);
+}
+
+.navigation .mail:hover,
+.navigation .mail:focus {
+  color: var(--accent-color);
+}
+
+.navigation .phone-number:hover,
+.navigation .phone-number:focus {
+  color: var(--accent-color);
+}
+
+.items .items-icon:hover,
+.items .items-icon:focus {
+  color: var(--accent-color);
+}
+
+.btn-footer {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
+
+.desc {
+  color: rgba(255, 255, 255, 0.4);
+}
+
+/* PORTFOLIO!!! */
+/* Проекти */
+.project {
+  display: none;
+}
+
+.project-item {
+  color: var(--title-text-color);
+  background-color: var(--secondary-color);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+}
+
+.btn:hover,
+.btn:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+.example-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.example-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+}
